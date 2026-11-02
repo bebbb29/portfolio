@@ -4,57 +4,53 @@ const portfolio: PortfolioConfig = {
   url: "https://www.example.com",
 
   profile: {
-    name: "John Doe",
-    role: "Frontend Developer",
-    tagline: "Building fast, thoughtful digital experiences.",
-    image: "/about.png",
-    availability: "Open for frontend and product work",
-    location: "Springfield, USA",
+    name: "Muhammad Habib rifai",
+    role: "Software Engineer",
+    tagline: "Turning Ideas Into Digital Solutions.",
+    image: "/foto.jpeg",
+    availability: "Open for software engineer work",
+    location: "Sukoharjo",
   },
 
   geo: {
-    city: "Springfield",
-    country: "United States",
-    countryCode: "US",
-    timezone: "America/Chicago",
-    flag: "🇺🇸",
+    city: "Sukoharjo",  
+    country: "Jawa Tengah",
+    countryCode: "SKH",
+    timezone: "Jakarta/indonesia",
+    flag: "id",
     coordinates: {
-      lat: 39.7817,
-      lng: -89.6501,
+    lat: -7.6833,
+    lng: 110.8333,
     },
   },
 
   images: {
-    hero: "/heroimage.png",
-    about: "/about.png",
-    contact: "/imagecp.png",
-    seoFallback: "/picofme.png",
+    hero: "/foto.jpeg",
+    about: "/foto.jpeg",
+    contact: "/contact.jpeg",
+    seoFallback: "",
   },
 
   seo: {
-    title: "John Doe | Frontend Developer in Springfield, USA",
-    titleTemplate: "%s | John Doe",
+    title: "Muhammad Habib Rifai| Software Engineer in Sukoharjo",
+    titleTemplate: "%s | habib rifai",
     description:
-      "John Doe is a frontend developer in Springfield, USA, building fast, accessible web applications with React, Next.js, and TypeScript. Explore his portfolio of projects, skills, and experience.",
-    applicationName: "John Doe Portfolio",
+      "Muhammad Habib Rifai is a Software Engineer from Sukoharjo,jawa tengah.",
+    applicationName: "Portfolio",
     keywords: [
-      "John Doe",
+      "Habib rifai",
       "frontend developer",
-      "frontend developer Springfield",
-      "frontend developer USA",
-      "React developer",
-      "Next.js developer",
-      "TypeScript developer",
-      "frontend engineer",
-      "web developer USA",
-      "React.js developer USA",
-      "Next.js developer USA",
+      "frontend developer Sukoharjo",
+      "frontend developer ",
+      "Software Engineer",
+      "Hardware Engineer",
+      "Internet of Things",
+      "Data Analys",  
     ],
     sameAs: [
-      "https://github.com/johndoe",
-      "https://www.linkedin.com/in/johndoe/",
-      "https://facebook.com/johndoe",
-      "https://instagram.com/johndoe",
+      "https://github.com/bebbb29",
+      "https://www.linkedin.com/in/muhammad-habib-rifai-904774446?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      "https://www.instagram.com/_r.paiii?srtk=NHF6aXdhemt0aTE0",
     ],
     googleVerification: process.env.GOOGLE_VERIFICATION,
     image: "/picofme.png",
@@ -65,59 +61,53 @@ const portfolio: PortfolioConfig = {
   },
 
   contact: {
-    email: "hello@johndoe.dev",
-    phone: "+1-555-0100",
+    email: "habibrifai13@gmail.com",
+    phone: "+6281511276987",
     showPhone: true,
   },
 
   socials: [
     {
       name: "GitHub",
-      href: "https://github.com/johndoe",
+      href: "https://github.com/bebbb29",
       icon: "Github",
       tooltip: "Where I store my bugs... ",
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/johndoe/",
+      href: "https://www.linkedin.com/in/muhammad-habib-rifai-904774446?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       icon: "Linkedin",
       tooltip: "Professional me (I promise I'm fun) ",
     },
     {
-      name: "Facebook",
-      href: "https://facebook.com/johndoe",
-      icon: "Facebook",
-      tooltip: "Daily dose of nostalgia & drama ",
-    },
-    {
       name: "Instagram",
-      href: "https://instagram.com/johndoe",
+      href: "https://www.instagram.com/_r.paiii?srtk=NHF6aXdhemt0aTE0",
       icon: "Instagram",
       tooltip: "Reels, vibes & fake perfection ",
     },
     {
       name: "Email",
-      href: "mailto:hello@johndoe.dev",
+      href: "mailto:habibrifai13@gmail.com",
       icon: "Mail",
       tooltip: "Let's build something cool together ",
     },
   ],
 
   hero: {
-    kicker: "John Doe · Frontend Developer",
+    kicker: "Muhammad habib Rifai · Software Engineer",
     heading: [
-      { text: "Building fast," },
-      { text: "thoughtful digital" },
-      { text: "experiences.", gradient: true },
+      { text: "Turning Ideas" },
+      { text: "Into Digital" },
+      { text: "Solutions.", gradient: true },
     ],
     primaryCta: { label: "View projects", href: "/projects", icon: "ArrowRight" },
-    secondaryCta: { label: "About John", href: "/about", icon: "ChevronRight" },
+    secondaryCta: { label: "About me", href: "/about", icon: "ChevronRight" },
   },
 
   heroStats: [
-    { value: "4", label: "Projects in portfolio" },
-    { value: "React · Next.js", label: "Core stack" },
-    { value: "Springfield, USA", label: "Based in" },
+    { value: "5", label: "Projects in portfolio" },
+    { value: "PHP,Python", label: "Core stack" },
+    { value: "Sukoharjo, Jateng", label: "Based in" },
   ],
 
   principles: [
@@ -138,102 +128,169 @@ const portfolio: PortfolioConfig = {
     },
   ],
 
-  home: {
-    principlesKicker: "Rules I Made Up",
-    principlesTitle: "How I Do Things",
-    principlesDescription:
-      "A clear, practical approach to frontend work, product structure, and motion.",
-    workKicker: "Things I Made",
-    workTitle: "What I’ve Been Cooking",
-    workDescription:
-      "A selection of React and Next.js projects focused on thoughtful design and solid frontend experiences.",
-    aboutCta: { label: "Learn more about John", href: "/about", icon: "ArrowRight" },
-    projectsCta: { label: "View all projects", href: "/projects", icon: "ArrowRight" },
-  },
+  
+home: {
+  principlesKicker: "My Approach",
+  principlesTitle: "How I Build & Create",
+  principlesDescription:
+    "Combining logical thinking, creativity, and technology to build functional digital solutions and meaningful user experiences.",
 
-  status: {
-    label: "Currently building",
-    note: "Probably overthinking a button",
-  },
+  workKicker: "Selected Projects",
+  workTitle: "Things I've Built",
+  workDescription:
+    "A collection of projects covering web development, system design, UI/UX, and intelligent applications built through learning and experimentation.",
 
-  navigation: [
-    { label: "Home", href: "/", icon: "Home" },
-    { label: "About", href: "/about", icon: "User" },
-    { label: "Work", href: "/projects", icon: "Briefcase" },
-    { label: "Contact", href: "/contact", icon: "Mail" },
-  ],
+  aboutCta: { label: "More About Me", href: "/about", icon: "ArrowRight" },
+  projectsCta: { label: "Explore My Projects", href: "/projects", icon: "ArrowRight" },
+},
+
+status: {
+  label: "Currently exploring",
+  note: "Learning, building, and improving every day.",
+},
+
+navigation: [
+  { label: "Home", href: "/", icon: "Home" },
+  { label: "About", href: "/about", icon: "User" },
+  { label: "Projects", href: "/projects", icon: "Briefcase" },
+  { label: "Contact", href: "/contact", icon: "Mail" },
+],
+
 
   footer: {
-    description:
-      "A personal portfolio for John Doe, a frontend developer from Springfield, USA, focused on React, Next.js, TypeScript, and modern web applications.",
-    nav: [
-      { label: "John’s homepage", href: "/" },
-      { label: "About John", href: "/about" },
+    
+description:
+  "An Informatics Engineering student passionate about software development, web technologies, and system design. Exploring ideas and turning them into functional digital solutions through code and creativity.",
+ nav: [
+      { label: "homepage", href: "/" },
+      { label: "About me", href: "/about" },
       { label: "Selected projects", href: "/projects" },
-      { label: "Contact John", href: "/contact" },
+      { label: "Contact me", href: "/contact" },
     ],
-    shareTitle: "John Doe | Frontend Developer",
-    copyright: "John Doe",
+    shareTitle: "Muhammad Habib rifai | Software engineer",
+    copyright: "Muhammad Habib rifai",
   },
 
-  projects: [
-    {
-      id: "1",
-      title: "Wordly",
-      description:
-        "A modern slang dictionary built for discovering and understanding internet slang.",
-      longDescription:
-        "Wordly is a community-driven dictionary where users can explore, search, and discover trending slang, meanings, examples, and popular terms through a fast and interactive interface.",
-      role: "Frontend design and development",
-      image: "/projects/slang.png",
-      tags: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
-      liveUrl: "https://example.com/wordly-demo",
-      githubUrl: null,
-      featured: true,
-    },
-    {
-      id: "2",
-      title: "Community Hub",
-      description:
-        "A community website built to organize events, identity, and updates.",
-      longDescription:
-        "Designed and developed a website for a local community with event discovery, club profiles, and reusable content sections for future growth.",
-      role: "Design and frontend development",
-      image: "/projects/projectone.png",
-      tags: ["React"],
-      liveUrl: "https://example.com/community-hub-demo",
-      githubUrl: "https://github.com/johndoe/community-hub",
-      featured: false,
-    },
-    {
-      id: "3",
-      title: "Secure Document Signing Platform",
-      description:
-        "A secure signature workflow with verification and audit trails.",
-      longDescription:
-        "A digital signature platform that enables secure document signing with verification steps, signing flows, and audit-friendly history.",
-      role: "Frontend ",
-      image: "/projects/projecttwo.png",
-      tags: ["React", "Node.js", "MongoDB"],
-      liveUrl: "https://example.com/signflow-demo",
-      githubUrl: "https://github.com/johndoe/signflow",
-      featured: false,
-    },
-    {
-      id: "4",
-      title: "CityPulse",
-      description:
-        "A civic issue reporting platform designed to help citizens report, track, and engage with local community problems.",
-      longDescription:
-        "CityPulse is a location-aware civic platform that makes it easier for citizens to report local issues, track their progress, and stay informed about problems in their community through an interactive and user-friendly interface.",
-      role: "Frontend design and development",
-      image: "/projects/civiceye.png",
-      tags: ["React", "TypeScript", "Maps", "Geolocation"],
-      liveUrl: "https://example.com/citypulse-demo",
-      githubUrl: "https://github.com/johndoe/citypulse-frontend",
-      featured: true,
-    },
+  
+projects: [
+  {
+    id: "1",
+    title: "Automatic Water Heater with Blynk",
+    description:
+      "An IoT-based automatic water heater using ESP32 and DS18B20 temperature sensor with remote monitoring and control through Blynk.",
+    longDescription:
+      "This project implements an automatic water heating system using ESP32 and a DS18B20 temperature sensor. A relay controls the heating element based on the detected water temperature. The system also integrates with Blynk to support remote monitoring and manual control.",
+    role: "IoT Developer",
+    image: "/projects/pemanas-air.png",
+    tags: [
+      "ESP32",
+      "Arduino",
+      "DS18B20",
+      "Relay",
+      "Blynk",
+      "IoT"
+    ],
+    liveUrl: "https://ojs.udb.ac.id/Senatib/article/view/5480/3681",
+    githubUrl:
+      "https://github.com/bebbb29/pemanas-air-otomatis-dengan-blynk",
+    featured: true,
+  },
+  {
+    id: "2",
+    title: "FC Barcelona Performance Analysis",
+    description:
+      "A football match performance analysis application using K-Means clustering to identify different team performance patterns.",
+    longDescription:
+      "This project analyzes FC Barcelona match statistics using the K-Means clustering algorithm. Match data is processed using Python and Scikit-learn, with StandardScaler, Elbow Method, and Silhouette Score. The application presents three performance clusters: Stable, Dominant, and Aggressive through an interactive Streamlit dashboard.",
+    role: "Data Analyst & Developer",
+    image: "/projects/barcelona-analysis.png",
+    tags: [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "Scikit-learn",
+      "K-Means",
+      "Data Visualization"
+    ],
+    liveUrl: "https://ejournal.itn.ac.id/jati/article/view/19089/10081",
+    githubUrl: "https://github.com/bebbb29/analysis-performa-Fc-barcelona.git",
+    featured: true,
+  },
+  {
+    id: "3",
+    title: "Scholarship Information Application",
+    description:
+      "A mobile application designed to provide accessible scholarship information using Flutter.",
+    longDescription:
+      "This project is a mobile application developed using Flutter and Dart. It focuses on presenting scholarship information in an accessible format and demonstrates the development of mobile application interfaces and functionality.",
+    role: "Mobile App Developer",
+    image: "/projects/beasiswa.png",
+    tags: [
+      "Flutter",
+      "Dart",
+      "Mobile Development"
+    ],
+    liveUrl: null,
+    githubUrl:
+      "https://github.com/bebbb29/Aplikasi-informasi-beasiswa-flutter",
+    featured: true,
+  },
+  {
+    id: "4",
+    title: "Network Disruption Reporting System",
+    description:
+      "A web application design concept for managing network disruption reports during an internship at Telkom Akses.",
+    longDescription:
+      "This project focuses on designing a web-based network disruption reporting system. The work includes system requirements analysis, business process modeling, UML diagrams, database design, wireframes, and interactive prototypes using Figma. The project scope covers system planning and UI/UX design rather than full application development.",
+    role: "System Analyst & UI/UX Designer",
+    image: "/projects/network-reporting.jpeg",
+    tags: [
+      "Figma",
+      "UI/UX",
+      "UML",
+      "Use Case Diagram",
+      "Flowchart",
+      "Database Design"
+    ],
+    liveUrl: "https://www.figma.com/design/SPoOeax1ifC1nqmUMm5mRo/laprak",
+    githubUrl: null,
+    featured: true,
+  },
+  {
+  id: "5",
+  title: "Portal Indonesia",
+  description:
+    "A web-based platform designed to present information about Indonesia through an accessible and user-friendly interface.",
+  longDescription:
+    "Portal Indonesia is a web development project focused on presenting Indonesian-related information through a centralized website. This project demonstrates my experience in building web interfaces, organizing content, and developing functional website features.",
+  role: "Web Developer",
+  image: "/projects/portal.png",
+  tags: [
+    "Web Development",
+    "HTML",
+    "CSS",
+    "JavaScript"
   ],
+  liveUrl: null,
+  githubUrl: "https://github.com/reinzzy/portal-indonesia",
+  featured: true,
+},
+{
+  id: "6",
+  title: "Dimpil Food",
+  description:
+    "A food-related digital project focused on providing a practical and accessible user experience.",
+  longDescription:
+    "Dimpil Food is a development project that demonstrates the application of software development concepts in the food and culinary domain.",
+  role: "Developer",
+  image: "/projects/dimpil-food.png",
+  tags: ["Web Development", "Application Development"],
+  liveUrl: "https://jurnal.portalpublikasi.id/index.php/JORAPI/article/view/559/388",
+  githubUrl: "https://github.com/bebbb29/dimpil-food",
+  featured: true,
+}
+],
+
 
   projectsPage: {
     kicker: "Selected work",
@@ -243,14 +300,14 @@ const portfolio: PortfolioConfig = {
       { text: "real problems.", gradient: true },
     ],
     description:
-      "A selection of React and Next.js projects spanning e-commerce, community platforms, and modern web applications.",
+      "A collection of software development projects covering web and mobile applications, data analysis, IoT solutions, and system design.",
     indexCard: {
       title: "Work index",
       countLabel: "Selected projects",
-      focusLabel: "Primary focus",
-      focusValue: "Frontend",
-      toolsLabel: "Main tools",
-      toolsValue: "React · Next.js",
+      focusLabel: "Primary Focus",
+      focusValue: "Software Development",
+      toolsLabel: "Technologies",
+      toolsValue: "PHP · Python · Flutter · ESP32", 
       footer: "From product interfaces to practical web applications.",
     },
     moreText:
@@ -273,33 +330,33 @@ const portfolio: PortfolioConfig = {
       { text: "something useful", gradient: true },
     ],
     intro:
-      "If you need a frontend developer for React, Next.js, or TypeScript work, send me a message.\nI’m open to freelance work, collaborations, and thoughtful product builds.",
-    imageBadge: "You’re Still Here?",
-    emailCardTitle: "Drop me a line",
+      "Interested in working together or discussing technology? Feel free to reach out. I'm open to opportunities, collaborations, and new challenges.",
+    imageBadge: "Let's Talk",
+    emailCardTitle: "Get in touch",
     emailCardText:
-      "The fastest way to reach me. I check email throughout the day and usually reply within a few hours.",
-    responseTime: "Response time: faster than her replies",
-    basedInBody: "Working remotely from the beautiful city of lakes.",
-    timezoneBody: "UTC-6. Usually online from 9 AM to 6 PM.",
-    takeActionTitle: "Take action",
-    takeActionText: "Choose the next step that works best for you.",
+      "THave a project or opportunity in mind? Send me an email. I'd be happy to connect. ",
+    responseTime: "I'll get back to you as soon as possible",
+    basedInBody: "Weru,Sukoharjo.",
+    timezoneBody: "UTC+7. Usually online from 9 AM to 7 PM.",
+    takeActionTitle: "Find me online",
+    takeActionText: "Explore my projects and connect with me through these platforms.",
     actions: [
       {
         title: "View GitHub",
         body: "Explore repositories and recent code.",
-        href: "https://github.com/johndoe",
+        href: "https://github.com/bebbb29",
         icon: "Github",
       },
       {
         title: "Connect on LinkedIn",
         body: "View my professional profile and experience.",
-        href: "https://www.linkedin.com/in/johndoe/",
+        href: "https://www.linkedin.com/in/muhammad-habib-rifai-904774446?utm_source=share_via&utm_content=profile&utm_medium=member_android",
         icon: "Linkedin",
       },
       {
         title: "Follow on Instagram",
         body: "See updates and moments beyond work.",
-        href: "https://instagram.com/johndoe",
+        href: "https://www.instagram.com/_r.paiii?srtk=NHF6aXdhemt0aTE0",
         icon: "Instagram",
       },
     ],
@@ -307,23 +364,23 @@ const portfolio: PortfolioConfig = {
 
   openGraph: {
     home: {
-      role: "Frontend Developer",
+      role: "Software Engineer",
       description:
-        "React, Next.js, TypeScript, and modern web applications from Springfield, USA.",
+        "Personal portfolio showcasing software development projects, web applications, system design, and technology experiments.",
     },
     about: {
-      subtitle: "About John",
+      subtitle: "About me",
       description:
-        "Frontend developer background, experience, and technical skills.",
+        "Learn more about my background, education, experience, and technical skills in Informatics Engineering.",
     },
     projects: {
       subtitle: "Projects",
-      description: "Selected React and Next.js work with product context.",
+      description: "Explore projects in web development, mobile applications, system design, data analysis, and IoT.",
     },
     contact: {
       subtitle: "Contact",
       description:
-        "Available for frontend work, collaborations, and freelance projects.",
+        "Get in touch for professional opportunities, collaborations, and technology projects.",
     },
   },
 
@@ -344,60 +401,38 @@ const portfolio: PortfolioConfig = {
   },
 
   introduction: `
-I’m John Doe, a frontend developer based in Springfield, USA. I specialize in
-building modern web applications with React, Next.js, and TypeScript — from
-marketing sites and community platforms to full e-commerce systems.
-
-My work focuses on interfaces that are fast, responsive, and accessible. I care
-about clear information hierarchy, sensible performance budgets, and code that
-stays easy to maintain as a product grows.
-
-I’m currently working as a frontend developer in Springfield, contributing to
-production React and Next.js applications, and I enjoy turning complex product
-ideas into interfaces that are simple to use and simple to extend.
+Lulusan S1 Teknik Informatika Universitas Duta Bangsa yang memiliki minat dalam bidang teknologi informasi serta pengembangan keterampilan profesional. Memiliki pengalaman dalam perancangan sistem, pengembangan aplikasi berbasis web dan mobile, desain UI/UX, serta proyek Internet of Things (IoT). Memahami dasar pemrograman, pengelolaan database, dan analisis kebutuhan sistem. Memiliki kemampuan berpikir analitis, problem solving, komunikasi, serta mampu bekerja secara individu maupun tim. Pribadi yang adaptif, disiplin, dan bertanggung jawab, dengan motivasi tinggi untuk terus belajar, mengembangkan kemampuan, serta memberikan kontribusi positif bagi perusahaan.
 `,
 
   workExperience: [
     {
-      title: "Frontend Intern",
-      company: "Acme Corp",
-      period: "2026 — May 24, 2026",
+      title: "Magang Internship",
+      company: "Telkom Akses solo",
+      period: "Agustus - Desember 2025",
       description:
-        "Contributed to real-world React applications while developing practical experience in reusable UI, responsive design, and team workflows.",
-    },
-    {
-      title: "Frontend Developer",
-      company: "Acme Corp",
-      period: "May 24, 2026 — Present",
-      description:
-        "Building and maintaining production-ready frontend experiences with React, reusable UI systems, and performance-focused improvements.",
-      current: true,
+        "Melaksanakan kegiatan magang dengan berfokus pada perancangan sistem informasi dan pengembangan konsep aplikasi berbasis web untuk mendukung proses operasional perusahaan. Terlibat dalam analisis kebutuhan sistem, perancangan alur proses bisnis, serta pembuatan desain antarmuka aplikasi menggunakan Figma..",
     },
   ],
 
   education: [
     {
-      title: "BSc Computer Science",
-      school: "State University",
-      info: "Final year",
-      current: true,
+      title: "Teknik Informatika",
+      school: "Universitas Duta Bangsa Surakarta",
+      info: "Lulus",
+      current: false,
     },
     {
-      title: "High School Diploma",
-      school: "Springfield High School",
-      info: "GPA: 3.26",
-    },
-    {
-      title: "Middle School",
-      school: "Riverside Secondary School",
-      info: "GPA: 3.90",
+      title: "Sekolah Menengah Kejuruan",
+      school: "SMK IPTEK Weru",
     },
   ],
 
   skills: {
-    frontend: ["React", "Next.js", "TypeScript", "Tailwind"],
-    backend: ["Node.js", "Express", "MongoDB"],
-    tools: ["Git", "Figma", "Postman", "Linux"],
+    frontend: ["React", "Next.js", "css",],
+    webdevelopment: ["Node.js", "php", "Laravel", "html"],
+    tools: ["Git", "Github", "Figma", "Xampp", "VScode"],
+    iot :["ESP32", "ARDUINO", "BLYNK"],
+    DataAnalys :["python", "pandas", "Scikit-learn", "Streamlit"],
   },
 };
 
